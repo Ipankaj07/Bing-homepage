@@ -1,0 +1,27 @@
+.homepage__container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  background-image: url(https://www.bing.com/th?id=OHR.Malaga_EN-IN8619897081_1920x1080.jpg&rf=LaDigue_1920x1080.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.homepage__content {
+  /* border: 1px solid white; */
+  max-width: 80%;
+  margin: 0 auto;
+  /* width: 100%; */
+}
+
+
+@media (max-width: 768px) {
+  .homepage__content {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+}

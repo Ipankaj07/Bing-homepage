@@ -1,0 +1,72 @@
+.modal-div {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+
+#Hmodal > div {
+  padding: 12px 20px;
+  cursor: pointer;
+  color: rgba(0,0,0,.55);
+}
+
+.modal-div div:nth-child(2){
+    font-size: 1rem;
+    color: #444 !important;
+}
+
+#Hmodal > div:hover{
+    background-color: #f7f7f7
+}
+
+#Hmodal {
+  padding: 12px 0;
+  width: 360px;
+  background-color: #fff;
+  position: absolute;
+  top: 3.3rem;
+  right: 8.7rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+  z-index: 999;
+}
+
+
+.hmodel-f  {
+    padding: 7px 20px 0;
+    border-top: 1px solid rgba(0,0,0,.09);
+    font-size: 14px;
+}
+
+.menuFooter.items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.separator{
+  margin:0 .3rem;
+}
+
+.item{
+line-height: 17px;
+}
+
+.item:hover{
+  text-decoration: underline;
+}
+
+.hmodel-f:hover{
+background-color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  #Hmodal {
+    padding: 10px 0;
+    width: 300px;
+    right: 1.2rem;
+  }
+}
